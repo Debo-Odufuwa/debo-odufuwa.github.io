@@ -1,0 +1,69 @@
+technical:
+  - title: Python Programming
+    level: Expert
+  - title: SQL Programming (MySQL)
+    level: Intermediate
+  - title: JavaScript
+    level: Intermediate
+  - title: Machine Learning (RapidMiner)
+    level: Intermediate
+  - title: Tableau Visualization Programming
+    level: Intermediate
+  - title: Power BI
+    level: Expert
+  - title: Google Looker Studio
+    level: Expert
+  - title: Streamlit
+    level: Intermediate
+  - title: Advanced Excel
+    level: Expert
+  - title: Power Query
+    level: Expert
+  - title: Google Analytics
+    level: Expert
+  - title: Digital Marketing Analytics Platforms
+    level: Expert
+  - title: SEO
+    level: Intermediate
+  - title: Facebook Ads
+    level: Intermediate
+  - title: LinkedIn Ads
+    level: Intermediate
+  - title: Inform CRM
+    level: Intermediate
+  - title: Donorfy CRM
+    level: Expert
+  - title: Integrating Software and Tools
+    level: Expert
+  - title: Power Automate
+    level: Intermediate
+  - title: Canva
+    level: Intermediate
+  - title: Prezi
+    level: Intermediate
+  - title: CapCut
+    level: Intermediate
+  - title: Predictive Modeling
+    level: Intermediate
+  - title: Sentiment Analysis
+    level: Expert
+  - title: Web Auditing
+    level: Expert
+
+soft:
+  - title: Communication
+    level: Advanced
+  - title: Leadership
+    level: Expert
+  - title: Time Management
+    level: Expert
+  - title: Problem-Solving
+    level: Advanced
+  - title: Adaptability
+    level: Expert
+  - title: Analytical Thinking
+    level: Advanced
+  - title: Organizational Skills
+    level: Expert
+  - title: Interpersonal Skills
+    level: Expert
