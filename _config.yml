@@ -1,35 +1,80 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site Configuration for Data Analytics Portfolio
+title: "Adebowale Odufuwa"
+subtitle: "Data & Business Intelligence Analyst"
+email: debo.odufuwa@gmail.com
+description: >-
+  Experienced Data Analyst with 25+ years in Sales, Customer Service, and Public Affairs. 
+  Specializing in Power BI, SQL, Python, and data-driven insights for nonprofit, 
+  enterprise, and digital transformation initiatives.
 
-title: Adebowale Odufuwa
-email: 
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://debo-odufuwa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Debo-Odufuwa
+url: "https://debo-odufuwa.github.io" # the base hostname & protocol for your site
+github_username: Debo-Odufuwa
+linkedin_username: adebowale-odufuwa
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Author
+author:
+  name: "Adebowale Odufuwa"
+  avatar: "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "Data Analyst | Power BI Expert | MSc Business Analytics"
+  location: "Aberdeen, Scotland"
+  email: "debo.odufuwa@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/adebowale-odufuwa"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Debo-Odufuwa"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:debo.odufuwa@gmail.com"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Debo-Odufuwa"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/adebowale-odufuwa"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+
+# Plugins (previously gems:)
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
@@ -39,22 +84,61 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Site navigation
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Main navigation
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Skills"
+    url: /skills/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
+
+# Collections for projects
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: # Add your Google Analytics tracking ID here
+    anonymize_ip: false # default
