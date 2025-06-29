@@ -19,7 +19,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Author
 author:
   name: "Adebowale Odufuwa"
-  avatar: "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: # We'll add photo later
   bio: "Data Analyst | Power BI Expert | MSc Business Analytics"
   location: "Aberdeen, Scotland"
   email: "debo.odufuwa@gmail.com"
@@ -30,9 +30,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Debo-Odufuwa"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:debo.odufuwa@gmail.com"
 
 # Site Footer
 footer:
@@ -115,20 +112,19 @@ defaults:
       layout: single
       author_profile: true
 
-# Main navigation
-main:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
-  - title: "Skills"
-    url: /skills/
-  - title: "Blog"
-    url: /blog/
-  - title: "Contact"
-    url: /contact/
+# Navigation
+navigation:
+  main:
+    - title: "Home"
+      url: /
+    - title: "About"
+      url: /about/
+    - title: "Projects"
+      url: /projects/
+    - title: "Skills"
+      url: /skills/
+    - title: "Contact"
+      url: /contact/
 
 # Collections for projects
 collections:
