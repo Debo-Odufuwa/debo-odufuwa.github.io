@@ -1,16 +1,22 @@
-# React + Vite
+# Debo Odufuwa — Data & AI Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 **Live Site:** https://debo-odufuwa.github.io
 
-Currently, two official plugins are available:
+## About
+Personal portfolio showcasing data analytics, AI, and automation projects built by Adebowale Odufuwa — Data & AI professional with an MSc in Business Analytics (Distinction) from Robert Gordon University.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React + Vite
+- Tailwind CSS v3
+- React Router DOM
+- Deployed via GitHub Pages
 
-## React Compiler
+## Projects Featured
+- 🤖 AI Legal Advisory Chatbot (MLAC) — RAG, GPT-4, Pinecone, multilingual
+- 📊 Power BI Analytics Dashboard — coming soon
+- 🐍 SQL + Python Data Analysis — coming soon
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contact
+- 🌐 [Portfolio](https://debo-odufuwa.github.io)
+- 💼 [LinkedIn](https://linkedin.com/in/adebowale-odufuwa)
+- 📧 debo.odufuwa@email.com
